@@ -4,7 +4,7 @@
 
 **Project Title**: Retail Sales Analysis  
 **Level**: Beginner  
-**Database**: `p1_retail_db`
+**Database**: `Sql_project_p1`
 
 This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 
@@ -26,7 +26,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
   USE Sql_project_p1;
 
 ### 2.  Create the Staging Table (retail_sales_staging)
--**This table is temporary and designed to accept all data as flexible text (VARCHAR), preventing MySQL's strict data validation rules from rejecting any rows.
+** This table is temporary and designed to accept all data as flexible text (VARCHAR), preventing MySQL's strict data validation rules from rejecting any rows.
 
 ```sql
   DROP TABLE IF EXISTS retail_sales_staging;
@@ -47,10 +47,10 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```
 
 ### 3. Load All Data into the Staging Table
--**Execute your file loading command into the flexible staging table. Since all target columns are text, all 2000 rows will load successfully.
+** Execute your file loading command into the flexible staging table. Since all target columns are text, all 2000 rows will load successfully.
 
 ### 4. Create the Final Production Table (retail_sales)
-**This is your final destination table with all the correct data types (INT, DATE, FLOAT, etc.).
+** This is your final destination table with all the correct data types (INT, DATE, FLOAT, etc.).
 
 ```sql
 DROP TABLE IF EXISTS retail_sales;
